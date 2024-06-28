@@ -1,0 +1,51 @@
+
+
+
+
+EJERICISIO DE LA SEMANA 4 
+UN SERVICIIO REST PARA CLIENTE
+
+
+SERVICIOS REST USANDO SPRING EN VSCODE 
+
+SE DEBE INSTALAR EXTENSIONES PQ VSCODE ES UN EDITOR LIMITADO
+
+
+
+se usa la bd > bd_ejercicio04
+
+
+EJECUTANDO : http://localhost:8050/url/cliente/listarClienteTodos
+
+
+1. application.properties
+   > PONER LA CONEXION A BD , SU NAME Y TU PASSWORD
+
+
+
+2.  
+  >  src\main\java\com\cibertec\ciber  (seleciona ciber)
+     crea folder entity 
+     crea 1 clase CLIENTE
+
+3.  
+    > src\main\java\com\cibertec\ciber    (seleciona ciber)
+    crea 1 folder repository
+    crea 1 clase > ClienteRepository.java
+
+
+4.  
+    > src\main\java\com\cibertec\ciber    (seleciona ciber)    
+    crea 1 folder service 
+    crea 2 clases > ClienteService.java Y ClienteServiceImpl.java
+
+
+5.    application.properties
+
+
+
+
+6.   > src\main\java\com\cibertec\ciber    (seleciona ciber)
+       crea un folder util 
+       crea una clase AppSettings.java
+       metodo o variables utiles
